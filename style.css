@@ -96,6 +96,17 @@ body {
   text-decoration-skip-ink: none;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.2rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  /* border: solid red; */
+}
+
+/* responsive design */
 @media screen and (min-width: 375px) {
   .hero-section {
     margin: 2rem;
@@ -111,5 +122,9 @@ body {
 
   .hero p {
     font-size: 1.3rem;
+  }
+
+  .social-icons img {
+    padding: 0.5rem;
   }
 }
