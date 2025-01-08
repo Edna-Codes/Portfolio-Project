@@ -65,8 +65,6 @@ body {
   color: #ff6b00;
   font-size: 3.5rem;
   padding-bottom: 1rem;
-  font-family: Crete Round;
-  font-size: 3.5rem;
   font-weight: 400;
   line-height: 4rem;
   letter-spacing: 0.3700000047683716px;
@@ -85,8 +83,7 @@ body {
 }
 
 .hero p {
-  color: #ffffff;
-  line-height: 1.5em;
+  color: #ffff;
   font-size: 1rem;
   font-family: Poppins;
   font-weight: 400;
