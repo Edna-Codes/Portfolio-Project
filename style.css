@@ -10,10 +10,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
-  background: #1c1a19 url(./images/Illustration.svg);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: auto;
 }
 
 .nav-header {
@@ -48,6 +44,10 @@ body {
 }
 
 .hero {
+  background: #1c1a19 url(./images/Illustration.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,6 +107,10 @@ body {
 
 /* responsive design */
 @media screen and (min-width: 375px) {
+  .hero {
+    background-size: 30%;
+  }
+
   .hero-section {
     margin: 2rem;
   }
@@ -120,7 +124,7 @@ body {
   }
 
   .hero p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .social-icons img {
