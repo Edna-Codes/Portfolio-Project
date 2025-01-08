@@ -8,14 +8,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -90,15 +87,15 @@ Clone this repository to your desired folder:
 - Run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
 ```
-git clone https://github.com/Edna-Codes/Portfolio-Website
+git clone https://github.com/Edna-Codes/Portfolio-Project
 
 ```
 
-- Once the files are on your machine, open the **hello-Microverse** folder in [Visual Studio Code](https://code.visualstudio.com/download).
+- Once the files are on your machine, open the **Portfolio-Project** folder in [Visual Studio Code](https://code.visualstudio.com/download).
 - Get in to the cloned directory/repository:
 
 ```
-cd hello-Microverse
+cd Portfolio-Project
 
 ```
 
@@ -114,14 +111,6 @@ Install this project with:
 ### Usage
 
 To run the project, open live server on your code editor
-
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
