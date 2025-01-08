@@ -18,7 +18,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -54,8 +53,6 @@
 - **Linter setup**
 - **Github flow**
 - **Proper Documentation**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
