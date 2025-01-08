@@ -56,12 +56,6 @@
 - **Proper Documentation**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://google.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -118,12 +112,9 @@ To run the project, open live server on your code editor
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **EDNA GUANTAI**
 
 - GitHub: [@Edna-Codes](https://github.com/Edna-Codes)
-- LinkedIn: [edna guantai](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +125,16 @@ To run the project, open live server on your code editor
 - [ ] **Add blog functionality.**
 - [ ] **Integrate animations.**
 - [ ] **Implement light/dark mode toggle.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
