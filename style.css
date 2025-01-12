@@ -231,6 +231,84 @@ body {
   font-weight: 600;
 }
 
+/* About Section Styles */
+.about-container {
+  background: #1c1a19;
+  color: #fff;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  background-image: url(./images/Frame.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 40rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.separator {
+  height: 1px;
+  background-color: #fff;
+  width: 80%;
+  margin: 0.4rem 0;
+}
+
+.abouts-list {
+  margin-top: 2rem;
+}
+
+.about-header h1 {
+  color: #ff6b00;
+  font-size: 4rem;
+}
+.about-header p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.about-header button {
+  margin-top: 2rem;
+  width: 60%;
+  padding: 1rem;
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-wrap: nowrap;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.li-header {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.languages ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages li {
+  list-style: none;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
 /* responsive design */
 @media screen and (min-width: 375px) {
   .hero {
@@ -242,7 +320,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .hero h3 {
@@ -266,10 +344,14 @@ body {
   }
   .card-1 {
     height: 45rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   .card-1 h2 {
     font-size: 2.2rem;
+  }
+
+  .about-header {
+    background-size: 40%;
   }
 
   .card-1 p {
@@ -293,5 +375,13 @@ body {
   }
   .card-2 button {
     font-size: 1.2rem;
+  }
+  .about-header h1 {
+    font-size: 5rem;
+  }
+  .about-header p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
   }
 }
