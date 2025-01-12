@@ -309,6 +309,19 @@ body {
   font-size: 1.3rem;
 }
 
+.btn:hover {
+  background-color: #f4b18b;
+  color: #181e25;
+}
+
+.btn:active {
+  background-color: #e05304;
+}
+
+.btn:disabled {
+  background-color: #f4f1f0;
+}
+
 /* responsive design */
 @media screen and (min-width: 375px) {
   .hero {
