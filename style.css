@@ -145,6 +145,7 @@ body {
 
 .card-1 p {
   padding-bottom: 1rem;
+  line-height: 1.5rem;
 }
 .frameworks-1 {
   padding-bottom: 1rem;
@@ -200,6 +201,7 @@ body {
   padding-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 3rem;
+  line-height: 1.5rem;
 }
 
 .frameworks {
@@ -213,7 +215,7 @@ body {
 }
 
 .works-list li {
-  background-color: #ffffff2c;
+  background-color: #ffffff24;
   padding: 0.5rem;
   margin-left: 1rem;
 }
@@ -287,6 +289,9 @@ body {
   }
 
   .frameworks {
-    padding-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .card-2 button {
+    font-size: 1.2rem;
   }
 }
