@@ -105,6 +105,231 @@ body {
   margin-top: 1.5rem;
 }
 
+/* works section styles */
+
+.works-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.works-header h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3rem;
+  margin: 7rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  margin-bottom: 2rem;
+}
+
+.card-1 h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card-1 p {
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.frameworks-1 {
+  padding-bottom: 1rem;
+}
+
+.works-list-1 {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.works-list-1 li {
+  background-color: #ffffff2c;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.card-1 button {
+  width: 40%;
+  padding: 1rem;
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-2 {
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./images/backimg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  width: 100%;
+  height: 20rem;
+}
+
+.card-2 h2 {
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.card-2 p {
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  line-height: 1.5rem;
+}
+
+.frameworks {
+  padding-bottom: 1rem;
+}
+
+.works-list {
+  display: flex;
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.works-list li {
+  background-color: #ffffff24;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.card-2 button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* About Section Styles */
+.about-container {
+  background: #1c1a19;
+  color: #fff;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  background-image: url(./images/Frame.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 40rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.separator {
+  height: 1px;
+  background-color: #fff;
+  width: 80%;
+  margin: 0.4rem 0;
+}
+
+.abouts-list {
+  margin: 2rem 0 4rem 0;
+}
+
+.about-header h1 {
+  color: #ff6b00;
+  font-size: 4rem;
+}
+
+.about-header p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.about-header button {
+  margin-top: 2rem;
+  width: 60%;
+  padding: 1rem;
+  background-color: #ff6b00;
+  outline: none;
+  border: none;
+  color: #fff;
+  text-wrap: nowrap;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.li-header {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.languages ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.languages li {
+  list-style: none;
+
+  /* padding-bottom: 1rem; */
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: #f4b18b;
+  color: #181e25;
+}
+
+.btn:active {
+  background-color: #e05304;
+}
+
+.btn:disabled {
+  background-color: #f4f1f0;
+}
+
 /* responsive design */
 @media screen and (min-width: 375px) {
   .hero {
@@ -116,7 +341,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .hero h3 {
@@ -129,5 +354,61 @@ body {
 
   .social-icons img {
     padding: 0.5rem;
+  }
+
+  .works-header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .cards {
+    padding: 2rem;
+  }
+
+  .card-1 {
+    height: 45rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-1 h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-header {
+    background-size: 40%;
+  }
+
+  .card-1 p {
+    font-size: 1.2rem;
+  }
+
+  .card-2 {
+    height: 30rem;
+  }
+
+  .card-2 h2 {
+    font-size: 2.5rem;
+  }
+
+  .card-2 p {
+    font-size: 1.2rem;
+  }
+
+  .frameworks {
+    font-size: 1.2rem;
+  }
+
+  .card-2 button {
+    font-size: 1.2rem;
+  }
+
+  .about-header h1 {
+    font-size: 5rem;
+  }
+
+  .about-header p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
   }
 }
