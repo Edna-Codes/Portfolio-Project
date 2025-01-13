@@ -177,9 +177,12 @@ body {
 }
 
 .card-2 {
-  background: linear-gradient(180.45deg,
+  background:
+    linear-gradient(
+      180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
     url(./images/backimg.svg);
   background-size: cover;
   background-repeat: no-repeat;
